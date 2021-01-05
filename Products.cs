@@ -10,7 +10,7 @@ namespace function
         [JsonProperty("productDescription")]
         public string productDescription { get; set; }
         [JsonProperty("productId")]
-        public Guid propertyId { get; set; }
+        public string propertyId { get; set; }
         [JsonProperty("productName")]
         public string productName { get; set; }
         [JsonProperty("timestamp")]
