@@ -22,7 +22,7 @@ namespace inhifistereo.httptrigger1
             ILogger log)
         {
              
-            document = new { productDescription = "This starfruit ice cream is out of this world!", productId = "2425", productName = "Starfruit Explosion", timestamp = DateTime.Now };
+            document = new { productDescription = "This starfruit ice cream is out of this world!", productId = "2424", productName = "Starfruit Explosion", timestamp = DateTime.Now };
 
             log.LogInformation($"C# Queue trigger function inserted one row");
         }
